@@ -129,8 +129,8 @@ class _ApplePayExternalPluginScreenState
 final _paymentProfile = """{
   "provider": "apple_pay",
   "data": {
-    "merchantIdentifier": "merchant.flutter.stripe.test",
-    "displayName": "Sam's Fish",
+    "merchantIdentifier": "merchant.com.yummyfuture.pickup",
+    "displayName": "Yummy Future",
     "merchantCapabilities": ["3DS"],
     "supportedNetworks": [
       "amex",

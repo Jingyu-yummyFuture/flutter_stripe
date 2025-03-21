@@ -13,6 +13,7 @@ class AddPaymentMethodScreenLoader {
     final theme = Theme.of(context);
     final scaffoldMessenger = ScaffoldMessenger.of(context);
     final setupKeys = await createSetupIntent();
+    debugPrint('### setupKeys: $setupKeys');
 
     if (context.mounted) {
       await Stripe.instance.initPaymentSheet(
